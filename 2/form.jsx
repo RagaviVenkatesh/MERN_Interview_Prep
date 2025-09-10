@@ -1,3 +1,5 @@
+// Build a form with controlled inputs and show the entered values live on the screen.
+
 import { useState } from "react";
 export default function Form(){
   const [form,setForm]=useState({name:"",email:""});
