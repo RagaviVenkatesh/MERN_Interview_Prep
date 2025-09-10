@@ -1,3 +1,5 @@
+// Create a simple counter app with increment, decrement, and reset buttons.
+
 import { useState } from "react";
 export default function Counter(){
   const [n,setN]=useState(0);
